@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+</head>
+<body>
+    <h2>Cadastro de Alunos</h2>
+    
+    <form action="#" method="post">
+
+        <!--Campo para Nome-->
+        <p>
+            <label for="nome">Nome do Aluno</label></p><br>
+            <input type="text" id="nome" name="nome" placeholder="digite seu nome" required>
+        </p>
+        <!--Serie-->
+         <p>
+            <label
+            for="serie">Série</label></br>
+            <select id="serie"
+            name="serie">
+                 <option
+            value="1ºserie">1ºSérie</option>
+                <option
+            value="2ºserie">2ºSérie</option>
+                <option
+            value="3ºserie">3ºSérie</option>
+        </select>
+        </p>
+        <!--Campo Maior E-mail-->
+        <p>
+            <label
+            for="email">E-mail do Aluno:</label></br>
+            <input type="email" id="email"
+            name="email"
+        placeholder="seuemail@exemplo.com"
+        required>
+        </p>
+        <!--Campo Maior Senha-->
+        <p>
+            <label
+            for="senha">Senha de acesso </label></br>
+            <input type="password" id="senha"
+            name="senha" 
+            placeholder="senha"
+            required>
+            
+        </p>
+        <!--Campo Maior Seleção(Dropdown)-->
+        <p>
+            <label
+            for="assunto">Assunto</label></br>
+            <select id="assunto"
+            name="assunto">
+                 <option
+            value="duvida">Informatica</option>
+                <option
+            value="sugestao">Atividade</option>
+                <option
+            value="suporte">Duvida</option>
+        </select>
+        </p>
+        <!--Caixa de Texto Grande -->
+        <p>
+          <label
+          for="mensagem">Mensagem</label></br>
+             <select id="digite seu comentario"
+                <option
+            value="duvida">Dúvida</option>
+               <option
+            value="sugestao">Sugestão</option>
+               <option
+            value="suporte">Suporte</option>
+        </select>
+        </p>
+        <!--Caixa de Texto Grande-->
+        <p>
+            <label
+            for="mensagem">Comentario</label></br>
+            <textarea id="mensagem"
+        name="mensagem" rows="4" cols="30"
+        placeholder="Escreva seu Comentario..."></textarea>
+
+        </p>
+        <!--Botão de Envio-->
+        <p>
+            <button
+            type="submit">Cadastrar</button>
+                   <button    
+                type="reset">Apagar</button>    
+        </p>
+    </form>
+</body>
+</html>
