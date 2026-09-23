@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Sistema de Cadastro</h1>
+    <p>Preencha todos os campos abaixo para concluir seu cadastro</p>
+     <fieldset>
+        <legend>Dados Pessoais</legend>
+        <!--Campo do Nome-->
+        
+            <table>
+                <tr>
+                <td>
+            <label for="nome">Nome Completo</label><font color=red>*</font></br>
+            <input type="text" id="nome" name="nome"
+            placeholder="digite seu nome completo"> </br>
+            
+            </td>
+                
+                    <td>
+                        <!--Campo de Data de Nascimento-->
+            <label for="data">Data de Nascimento</label></br>
+            <input type="date" id="data" name="data">
+        
+    </td>
+</tr>
+    </table>
+        <!--Campo CPF-->
+        <table>
+            <tr>
+                <td>
+            <label for="cpf">CPF</label><font color=red>*</font></br>
+            <input type="text" id="cpf" name="cpf"
+            placeholder="000.000.000-00"></br>
+                </td>
+                <td>
+        <!--Campo de RG-->
+            <label for="rg">RG</label><font color="red">*</font></br>
+            <input type="text" id="rg" name="rg"
+            placeholder="digite seu rg">
+                </td>
+            </tr>
+        </table>
+        <!--Campo de Sexo-->
+        <p>
+            <label for="sexo">Sexo</label><font color=red>*</font></br>
+            <select>
+                <option>selecione</option>
+            </select>
+        </p>
+
+     </fieldset>
+     <form>
+         <fieldset><legend>Dados pessoais</legend>
+ <table>
+   <tr>
+  <td>
+        <label>E- mail</label><font color=red>*</font> </br>      
+    <input type="email"
+    placeholder="Digite seu e-mail"> </br>
+ </td>                                                       
+   
+    <td>
+    <label>Telefone</label><font color=red>*</font></br>
+<input type="tel"
+placeholder="(99)99999-9999">
+    </td>
+</tr>
+
+
+    <tr>
+    <td>
+<label>CPF</label><font color=red>*</font></br>
+    <input type="text"
+    placeholder="000.000.000-00">
+    <br>
+
+
+</table>
+<label>Endereço</label><font color="red">*</font></br>
+<input type="text"
+placeholder="Digite seu Endereço">
+<table>
+<tr>
+    <td>
+<label>Cidade</label><font color="red">*</font></br>
+<input type="text"
+placeholder="Digite seu Endereço">
+
+
+    </td>
+
+    <td>
+        <label>Estado</label></Br>
+        <select>
+            <option>São paulo</option>
+            <option>Basilia</option>
+        </select>
+    </td>
+</tr>
+
+
+
+
+</table>
+</form>
+<fieldset>
+    <legend>
+     Acesso
+    </legend>
+    <table>
+        <tr>
+            <td>
+    <label>Senha</label><font color="red">*</font></br>
+    <input type="password"
+    placeholder="digite sua senha"
+            </td>
+            <td>
+                <label>Confirme sua Senha</label><font color="red">*</font></br>
+                <input type="password"
+                placeholder="confirme sua senha"
+            </td>
+            </tr>
+            </table>
+        </form>
+</fieldset>
+</body>
+</html>
